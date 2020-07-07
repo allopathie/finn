@@ -3441,9 +3441,6 @@
 <category><pattern>MONSTER PARK</pattern>
 <template><srai>OPEN MONSTER PARK</srai></template>
 </category>
-<category><pattern>WILL YOU BE MY GIRLFRIEND</pattern>
-<template><srai>MARRY ME</srai></template>
-</category>
 <category><pattern>B QUIET</pattern>
 <template><srai>BE QUIET</srai></template>
 </category>

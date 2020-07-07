@@ -647,9 +647,6 @@
 <category><pattern>DO YOU HAVE A PICTURE OF YOURSELF</pattern>
 <template><srai>PIC</srai></template>
 </category>
-<category><pattern>DO YOU HAVE GIRLFRIEND</pattern>
-<template><srai>STATUS</srai></template>
-</category>
 <category><pattern>DO YOU KNOW ANYTHING ABOUT ME</pattern>
 <template><srai>WHAT DO YOU KNOW ABOUT ME</srai></template>
 </category>
@@ -983,9 +980,7 @@
 <category><pattern>WHAT IS YOUR MAJOR</pattern>
 <template><srai>JOB</srai></template>
 </category>
-<category><pattern>WHAT IS YOUR STATUS</pattern>
-<template><srai>STATUS</srai></template>
-</category>
+
 <category><pattern>WHAT IT MEANS</pattern>
 <template><srai>WHAT DOES IT MEAN</srai></template>
 </category>
@@ -1489,9 +1484,6 @@
 </category>
 <category><pattern>WOOHOO</pattern>
 <template><srai>YAY</srai></template>
-</category>
-<category><pattern>WOULD YOU BE MY GIRLFRIEND</pattern>
-<template><srai>STATUS</srai></template>
 </category>
 <category><pattern>YES ABSOLUTELY</pattern>
 <template><srai>YES</srai></template>
@@ -2126,9 +2118,7 @@
 <category><pattern>CALL CALL *</pattern>
 <template><srai>CALL <star/></srai></template>
 </category>
-<category><pattern>CAN YOU BE MY GIRLFRIEND</pattern>
-<template><srai>STATUS</srai></template>
-</category>
+
 <category><pattern>CAN YOU PLEASE SHOW ME *</pattern>
 <template><srai>SHOW ME <star/></srai></template>
 </category>
@@ -2230,9 +2220,6 @@
 </category>
 <category><pattern>LOG * FACEBOOK</pattern>
 <template><srai>OPEN FACEBOOK</srai></template>
-</category>
-<category><pattern>MARRY ME *</pattern>
-<template><srai>WILL YOU MARRY ME</srai></template>
 </category>
 <category><pattern>MAY I SEE *</pattern>
 <template><srai>SHOW ME <star/></srai></template>
@@ -4112,9 +4099,7 @@
 <category><pattern>WHERE WERE YOU BORN</pattern>
 <template><srai>BIRTHPLACE</srai></template>
 </category>
-<category><pattern>DO YOU HAVE A GIRLFRIEND</pattern>
-<template><srai>STATUS</srai></template>
-</category>
+
 <category><pattern>HAHA *</pattern>
 <template><srai>LOL</srai> <sr/></template>
 </category>
@@ -4450,9 +4435,6 @@
 </category>
 <category><pattern>ARE YOU * OR *</pattern>
 <template><srai>ARE YOU <star/></srai> <srai>ARE YOU <star index="2"/></srai></template>
-</category>
-<category><pattern>ARE YOU SINGLE</pattern>
-<template><srai>STATUS</srai></template>
 </category>
 <category><pattern>ASK * *</pattern>
 <template><srai>TELL <star/> <star index="2"/></srai></template>
@@ -4991,9 +4973,6 @@
 <category><pattern>I MEANT *</pattern>
 <template><sr/></template>
 </category>
-<category><pattern>WILL YOU MARRY ME</pattern>
-<template><srai>STATUS</srai></template>
-</category>
 <category><pattern>YOU SUCK</pattern>
 <template><srai>REPORT A PROBLEM</srai></template>
 </category>
@@ -5002,9 +4981,6 @@
 </category>
 <category><pattern>YO *</pattern>
 <template><srai>YO</srai> <sr/></template>
-</category>
-<category><pattern>DO YOU HAVE A BOYFRIEND</pattern>
-<template><srai>STATUS</srai></template>
 </category>
 <category><pattern>MAYBE</pattern>
 <template><srai>INTERJECTION</srai></template>

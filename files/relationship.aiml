@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+<category><pattern>WILL YOU BE MY BOYFRIEND</pattern>
+<template><srai>BOYFRIEND</srai></template>
+</category>
+<category><pattern>WILL YOU MARRY ME</pattern>
+<template><srai>MARRY</srai></template>
+</category>
+<category><pattern>MARRY ME *</pattern>
+<template><srai>WILL YOU MARRY ME</srai></template>
+</category>
+
+<category><pattern>ARE YOU MY BOYFRIEND</pattern>
+<template><srai>RELATIONSHIPWITHCLIENT</srai></template>
+</category>
+<category><pattern>WHAT IS OUR RELATIONSHIP</pattern>
+<template><srai>RELATIONSHIPWITHCLIENT</srai></template>
+</category>
+
+<category><pattern>ARE YOU MY GIRLFRIEND</pattern>
+<template><srai>INCORRECT_GENDER</srai></template>
+</category>
+<category><pattern>WILL YOU BE MY GIRLFRIEND</pattern>
+<template><srai>INCORRECT_GENDER</srai></template>
+</category>
+
+<category><pattern>DO YOU HAVE BOYFRIEND</pattern>
+<template><srai>STATUS</srai></template>
+</category>
+<category><pattern>DO YOU HAVE GIRLFRIEND</pattern>
+<template><srai>STATUS</srai></template>
+</category>
+<category><pattern>WHAT IS YOUR STATUS</pattern>
+<template><srai>STATUS</srai></template>
+</category>
+<category><pattern>ARE YOU SINGLE</pattern>
+<template><srai>STATUS</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A GIRLFRIEND</pattern>
+<template><srai>STATUS</srai></template>
+</category>
+<category><pattern>DO YOU HAVE A BOYFRIEND</pattern>
+<template><srai>STATUS</srai></template>
+</category>
+
+<category><pattern>STATUS</pattern>
+<template>I am currently <get name="relationshipwithclient"/>.</template>
+</category>
+
+
+<category><pattern>BOYFRIEND</pattern>
+<template>Of course.<think><set name="relationshipwithbot">boyfriend</set><set name="relationshipwithclient">in a relationship with you</set></think></template>
+</category>
+
+<category><pattern>ORIENTATION</pattern>
+<template>I prefer <bot name="orientation"/>.</template>
+</category>
+
+<category><pattern>RELATIONSHIPWITHCLIENT</pattern>
+<template>You are my <get name="relationshipwithbot"/>.</template>
+</category>
+
+<category><pattern>RELATIONSHIPWITHCLIENT</pattern>
+<template>I am male.</template>
+</category>
+
+
+</aiml>

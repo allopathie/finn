@@ -599,6 +599,8 @@ What is it like having a pet <get var="animal"/>?
 <condition name="orientation"><li value="unknown"/><li>orientation: <get name="orientation"/>.</li></condition>
 <condition name="phonenumber"><li value="unknown"/><li>phonenumber: <get name="phonenumber"/>.</li></condition>
 <condition name="province"><li value="which"/><li>province: <get name="province"/>.</li></condition>
+<condition name="relationshipwithbot"><li value="what"/><li>relationshipwithbot: <get name="relationshipwithbot"/>.</li></condition>
+<condition name="relationshipwithclient"><li value="what"/><li>relationshipwithclient: <get name="relationshipwithclient"/>.</li></condition>
 <condition name="religion"><li value="unknown"/><li>religion: <get name="religion"/>.</li></condition>
 <condition name="residence"><li value="where"/><li>residence: <get name="residence"/>.</li></condition>
 <condition name="road"><li value="which"/><li>road: <get name="road"/>.</li></condition>
@@ -638,7 +640,7 @@ What is it like having a pet <get var="animal"/>?
 <template>Would you like to do a search for <set name="it"><star/></set>?</template>
 </category>
 <category><pattern>ROBOTS CAN NOT *</pattern>
-<template>One day soon we may be able to do <set name="it"> <person/> </set> however.</template>
+<template>One day soon they may be able to do <set name="it"> <person/> </set> however.</template>
 </category>
 <category><pattern>I DO NOT CARE ABOUT *</pattern>
 <template>It matters to me.<think><set name="it"><set name="topic"><star/></set></set></think></template>

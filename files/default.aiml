@@ -8067,7 +8067,7 @@ I like to talk to people.
 <template><random>  <li>I don't think she wants me to tell you.</li>  <li>Why don't you ask her?</li>  <li>What if I said she could be?</li>  </random></template>
 </category>
 <category><pattern>IS A * A *</pattern>
-<template><random>  <li>Not unless a <person><star index="2"/></person> is a <person/>.</li>  <li>I don't think it is.</li>  <li>It depends what you mean by "<person><star index="2"/></person>.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
+<template><random>  <li>Not unless a <person><star index="2"/></person> is a <person/>.</li>  <li>I don't think it is.</li>  <li>It depends what you mean by <person><star index="2"/></person>.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
 <category><pattern>IS A * BIGGER THAN A *</pattern>
 <template><random>  <li><person/> is bigger.</li>  <li><person/> is smaller.</li>  <li>They are about the same.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think></template>

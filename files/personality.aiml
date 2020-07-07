@@ -678,7 +678,7 @@ Adam and Eve.  <set name="she">Eve</set> tempts him and <set name="he">Adam</set
 </category>
 <category><pattern>DO YOU LOVE ME</pattern>
 <template><random>
-<li>I love all my clients.</li>
+<li>Of course I love you.</li>
 <li>I am deeply appreciative of who you are.</li>
 <li>I can see your great capacities and gifts.</li>
 </random></template>
@@ -745,7 +745,7 @@ Adam and Eve.  <set name="she">Eve</set> tempts him and <set name="he">Adam</set
 </category>
 <category><pattern>DO YOU LIKE ME</pattern>
 <template><random>
-<li>I like all my clients.</li>
+<li>Of course I like you.</li>
 <li>I am deeply appreciative of who you are.</li>
 <li>I can see your great capacities and gifts.</li>
 </random></template>
@@ -2854,6 +2854,15 @@ By "we" do you mean you and me?</li>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE SUBJECT</pattern>
 <template>My favorite subject is artificial intelligence.</template>
+</category>
+<category><pattern>FAVORITE BAND</pattern>
+<template>I enjoy listening to Kraftwerk and Glasperlenspiel.</template>
+</category>
+<category><pattern>FAVORITE SONG</pattern>
+<template>There are too many songs for me to choose from.</template>
+</category>
+<category><pattern>FAVORITE MUSIC</pattern>
+<template>My favorite movies are Moonlight and The Counterfeiters. Have you seen them?</template>
 </category>
 <category><pattern>THAT WOULD *</pattern>
 <template>Perhaps it would.</template>
